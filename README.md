@@ -4,7 +4,7 @@ Code for characterising sputtering processes in our self-driving lab. See the pa
 ## Running the code
 This code was developed with Python version 3.11. To use this code, you can follow these steps
 
-### 1. Clode the repository
+### 1. Clone the repository
 If you set up shh connection use
 ```
 git clone git@github.com:jarlsanna/gps-for-magnetron-sputtering.git
@@ -27,4 +27,4 @@ source my_env/bin/activate
 Now you can install the modules needed and run the code in an isolated environment. 
 
 ### 3. Example usage
-See the notebook `example.ipynb`. It shows how to lead the data, and an example of an active learning loop, using the functions in the other files. 
+See the notebook `example.ipynb`. It shows how to read the data, and an example of an active learning loop, using the functions in the other files. 
