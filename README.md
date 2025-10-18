@@ -24,7 +24,11 @@ then create a python virtual environment (here called my_env), and activate it
 python -m venv my_env
 source my_env/bin/activate
 ```
+### 3. Install modules
 Now you can install the modules needed and run the code in an isolated environment. 
+```
+pip install -r requirements.tex
+```
 
-### 3. Example usage
+### 4. Example usage
 See the notebook `example.ipynb`. It shows how to read the data, and an example of an active learning loop, using the functions in the other files. 
